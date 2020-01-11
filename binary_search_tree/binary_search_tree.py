@@ -92,11 +92,10 @@ class BinarySearchTree:
         print(node.value)
         if node.left:
             self.in_order_print(node.left)
-            # print(node.value)
-
+            
         elif node.right:
             self.in_order_print(node.right)
-            print(node.value)
+            # print(node.value)
        
     # Print the value of every node, starting with the given node,
     # in an iterative breadth first traversal
